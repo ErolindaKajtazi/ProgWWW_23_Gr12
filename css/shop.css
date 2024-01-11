@@ -5,3 +5,9 @@ header {
 footer {
     margin-bottom: 0!important;
 }
+
+.shop-section {
+    margin: 5% auto;
+    padding: 1% 5%;
+    text-align: center;
+}

@@ -7,11 +7,34 @@ footer {
 }
 
 .about-section {
-    margin: 2rem auto;
+    margin: 0 auto 5%;
     padding: 5%;
     text-align: center;
+    background-color: #F4ECEE;
 }
 
 .about-section img {
     width: 70%;
 }
+
+.about-section h2 {
+    padding-top: 5rem;
+}
+
+.about-section p {
+    text-align: left;
+}
+
+.testimonials {
+    padding: 0 5%;
+}
+
+.testimonials .testimonial {
+    text-align: center;
+    gap: 16px;
+}
+
+.testimonials .row {
+    gap: 4rem;
+}
+

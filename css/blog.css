@@ -5,3 +5,14 @@ header {
 footer {
     margin-bottom: 0!important;
 }
+
+
+.blog-section {
+    margin: 5% auto;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.blog-section span {
+    padding-bottom: 5px;
+}
