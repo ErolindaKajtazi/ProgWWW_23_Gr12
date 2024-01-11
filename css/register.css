@@ -1,0 +1,70 @@
+main {
+    padding: 8rem 0 0 0;
+}
+
+.container-register {
+    padding-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-form {
+    width: 33%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 20px;
+
+}
+
+.register-form h1 {
+    padding: 2.5rem 0;
+}
+
+
+input {
+    padding: 3% 5% 3% 0;
+    width: 100%;
+}
+
+button{
+  color: white;
+  font-size: 1.8rem;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 100%; 
+  margin-bottom: 1rem;
+}
+
+
+span {
+    margin-bottom: 2.5rem;
+    font-size: 1.6rem;
+}
+
+form p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+}
+
+ion-icon {
+    font-size: 38;
+}
+
+.nav {
+    gap: 4rem;
+}
+
+.nav ul {
+    list-style-type: none;
+}
