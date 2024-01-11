@@ -25,6 +25,47 @@ footer {
     text-align: left;
 }
 
+.faq-section {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    /* padding-top: 4.5rem; */
+}
+
+
+.container {
+    margin: 2rem 6rem;
+}
+  
+#container2, #container3, #container4, #container5 {
+    display: none;
+    margin: 2rem 6rem;
+}
+ 
+  
+  .text {
+    flex: 1; 
+    margin-right: 10px;
+  }
+  
+  .text {
+    flex: 1; 
+    margin-right: 10px;
+  }
+  
+  #image2,#image3,#image4,#image5{
+    max-width: 100%; 
+    height: 30px;
+    width: 30px;
+  }
+  
+  #button{
+    border: 0px;
+    background-color: #F4ECEE;
+  }
+  
+  
+
+
 .testimonials {
     padding: 0 5%;
 }

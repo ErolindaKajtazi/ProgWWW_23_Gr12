@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
- box {
-	border: 1pt solid #A8A8A8;
-	background-color: #fffffff6;
-	padding: 5px;
-	width: 700px;
-	position: fixed;
-	top: 250px;
-	left:400px;
-}
-#imagess {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: -38px;
-    left:350px;
-}
-.cookiesbutton {
-    border: 0.5px;
-    padding: 5px;
-    width: 32%;
-    background: rgba(249, 247, 245, 0.91);
-    margin: 0 auto; 
-}
-#boxcookies {
+    <style>
+        box {
+            border: 1pt solid #A8A8A8;
+            background-color: #fffffff6;
+            padding: 5px;
+            width: 700px;
+            position: fixed;
+            top: 250px;
+            left: 400px;
+        }
+
+        #imagess {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: -38px;
+            left: 350px;
+        }
+
+        .cookiesbutton {
+            border: 0.5px;
+            padding: 5px;
+            width: 32%;
+            background: rgba(249, 247, 245, 0.91);
+            margin: 0 auto;
+        }
+
+        #boxcookies {
             display: block;
-}
-#boxcookies2 {
+        }
+
+        #boxcookies2, #boxcookies3 {
             display: none;
-}
-#boxcookies3 {
-            display: none;
-}
-.cookieslable {
-    display: inline-block;
-    width: 49%;
-    text-align: center;
-    
-}
-    
-</style>
-<title> Ushtrim me CSS- Fixed postioning</title>
+        }
+
+        .cookieslable {
+            display: inline-block;
+            width: 49%;
+            text-align: center;
+
+        }
+    </style>
+    <title></title>
 </head>
+
 <body>
 
     <script>
@@ -55,11 +58,11 @@
             deletee2.style.display = 'none';
             deletee3.style.display = 'none';
         }
-    
+
         function selectCookies() {
             var partToHide = document.getElementById('boxcookies2');
-    
-            if (partToHide.style.display === 'block') {   
+
+            if (partToHide.style.display === 'block') {
             } else {
                 partToHide.style.display = 'block';
                 var part = document.getElementById('boxcookies');
@@ -67,10 +70,10 @@
                 var part = document.getElementById('boxcookies3');
                 part.style.display = 'none';
             }
- 
+
 
         }
-    
+
         function cancel() {
             var deletee = document.getElementById('boxcookies');
             var deletee2 = document.getElementById('boxcookies2');
@@ -79,12 +82,12 @@
             deletee2.style.display = 'none';
             deletee3.style.display = 'none';
 
-            
+
         }
 
         function cookies() {
             var partToHide = document.getElementById('boxcookies');
-    
+
             if (partToHide.style.display === 'block') {
             } else {
                 partToHide.style.display = 'block';
@@ -97,7 +100,7 @@
 
         function details() {
             var partToHide = document.getElementById('boxcookies3');
-    
+
             if (partToHide.style.display === 'block') {
             } else {
                 partToHide.style.display = 'block';
@@ -110,75 +113,86 @@
 
     </script>
 
-<box id = "boxcookies">
-    <hr />
-    <div>
-        <lable type="button" class="cookieslable" onclick = "cookies()">Cookies</lable>
-        <lable type="button" class="cookieslable" onclick = "details()">Details</lable>
-    </div>
-
-    <hr />
-    <p>We use cookies to improve your experience on our website. Cookies are small text files that are placed on your device when you visit our site. 
-        They help us enhance functionality, analyze site performance, and customize content to better suit your preferences. These cookies enable us to 
-        remember your settings and preferences, making your browsing experience more efficient and personalized.</p>
-        <hr />
-    <div>
-        <button type="button" class="cookiesbutton" onclick = "hideCookies()">Accept</button>
-        <button type="button" class="cookiesbutton" onclick = "selectCookies()">Select cookies</button>
-        <button type="button" class="cookiesbutton" onclick = "cancel()">Cancel</button>
-    </div>
-    <hr />
-    <img id = "imagess" src = "image.png"/>
-</box>
-
-<div id = "boxcookies2">
-<box id = "boxcookies">
-    <hr />
-    <div>
-        <lable type="button" class="cookieslable" onclick = "cookies()">Cookies</lable>
-        <lable type="button" class="cookieslable" onclick = "details()">Details</lable>
-    </div>
-    <hr />
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Technical Part</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Important Information</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> Personal Information</label><br><br>
-        <hr />
-    <div>
-        <button type="button" class="cookiesbutton" onclick = "hideCookies()">Accept</button>
-        <button type="button" class="cookiesbutton" onclick = "selectCookies()">Select cookies</button>
-        <button type="button" class="cookiesbutton" onclick = "cancel()">Cancel</button>
-    </div>
-    <hr />
-    <img id = "imagess" src = "image.png"/>
-</box>
-</div>
-
-<div id = "boxcookies3">
-    <box id = "boxcookies">
+    <box id="boxcookies">
         <hr />
         <div>
-            <lable type="button" class="cookieslable" onclick = "cookies()">Cookies</lable>
-            <lable type="button" class="cookieslable" onclick = "details()">Details</lable>
+            <lable type="button" class="cookieslable" onclick="cookies()">Cookies</lable>
+            <lable type="button" class="cookieslable" onclick="details()">Details</lable>
+        </div>
+
+        <hr />
+        <p>We use cookies to improve your experience on our website. Cookies are small text files that are placed on
+            your device when you visit our site.
+            They help us enhance functionality, analyze site performance, and customize content to better suit your
+            preferences. These cookies enable us to
+            remember your settings and preferences, making your browsing experience more efficient and personalized.</p>
+        <hr />
+        <div>
+            <button type="button" class="cookiesbutton" onclick="hideCookies()">Accept</button>
+            <button type="button" class="cookiesbutton" onclick="selectCookies()">Select cookies</button>
+            <button type="button" class="cookiesbutton" onclick="cancel()">Cancel</button>
         </div>
         <hr />
-   <p> Technical Part:
-    The Technical Part provides important information related to the technical aspects of a system, project or process. This section often includes details such as specifications, requirements, configurations and other important technical data. It serves as a reference point for individuals involved in the implementation and technical maintenance of a system.</p>
-   <p>Important Information:
-    The Important Information section includes key details that are important to users, stakeholders, or anyone related to a particular context. This section includes important updates, announcements or facts that need attention.</p>
-   <p>Personal Information:
-    The Personal Information section contains details specific to individuals, such as names, addresses, contact information and other personal identifiers. This section is treated with special respect for privacy and is usually subject to data protection regulations. It is important in contexts where personalization or identification is necessary, providing a tailored and secure user experience.</p>
-       <hr /> 
-    <div>
-            <button type="button" class="cookiesbutton" onclick = "hideCookies()">Accept</button>
-            <button type="button" class="cookiesbutton" onclick = "selectCookies()">Select cookies</button>
-            <button type="button" class="cookiesbutton" onclick = "cancel()">Cancel</button>
-        </div>
-        <hr />
-        <img id = "imagess" src = "image.png"/>
+        <img id="imagess" src="../assets/page-cookies.png" />
     </box>
+
+    <div id="boxcookies2">
+        <box id="boxcookies">
+            <hr />
+            <div>
+                <lable type="button" class="cookieslable" onclick="cookies()">Cookies</lable>
+                <lable type="button" class="cookieslable" onclick="details()">Details</lable>
+            </div>
+            <hr />
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Technical Part</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Important Information</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Personal Information</label><br><br>
+            <hr />
+            <div>
+                <button type="button" class="cookiesbutton" onclick="hideCookies()">Accept</button>
+                <button type="button" class="cookiesbutton" onclick="selectCookies()">Select cookies</button>
+                <button type="button" class="cookiesbutton" onclick="cancel()">Cancel</button>
+            </div>
+            <hr />
+            <img id="imagess" src="../assets/page-cookies.png" />
+        </box>
+    </div>
+
+    <div id="boxcookies3">
+        <box id="boxcookies">
+            <hr />
+            <div>
+                <lable type="button" class="cookieslable" onclick="cookies()">Cookies</lable>
+                <lable type="button" class="cookieslable" onclick="details()">Details</lable>
+            </div>
+            <hr />
+            <p> Technical Part:
+                The Technical Part provides important information related to the technical aspects of a system, project
+                or process. This section often includes details such as specifications, requirements, configurations and
+                other important technical data. It serves as a reference point for individuals involved in the
+                implementation and technical maintenance of a system.</p>
+            <p>Important Information:
+                The Important Information section includes key details that are important to users, stakeholders, or
+                anyone related to a particular context. This section includes important updates, announcements or facts
+                that need attention.</p>
+            <p>Personal Information:
+                The Personal Information section contains details specific to individuals, such as names, addresses,
+                contact information and other personal identifiers. This section is treated with special respect for
+                privacy and is usually subject to data protection regulations. It is important in contexts where
+                personalization or identification is necessary, providing a tailored and secure user experience.</p>
+            <hr />
+            <div>
+                <button type="button" class="cookiesbutton" onclick="hideCookies()">Accept</button>
+                <button type="button" class="cookiesbutton" onclick="selectCookies()">Select cookies</button>
+                <button type="button" class="cookiesbutton" onclick="cancel()">Cancel</button>
+            </div>
+            <hr />
+            <img id="imagess" src="../assets/page-cookies.png" />
+        </box>
     </div>
 </body>
+
 </html>
