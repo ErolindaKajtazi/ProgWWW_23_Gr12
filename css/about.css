@@ -1,0 +1,17 @@
+header {
+    position: relative !important;
+}
+
+footer {
+    margin-bottom: 0!important;
+}
+
+.about-section {
+    margin: 2rem auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.about-section img {
+    width: 70%;
+}

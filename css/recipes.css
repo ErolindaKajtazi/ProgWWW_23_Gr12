@@ -1,0 +1,34 @@
+header {
+    position: relative !important;
+}
+
+.recipes-section {
+    margin: 5% auto;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.types {
+    list-style: none;
+    padding: 3rem 2rem;
+}
+
+.type, .type:link, .type:visited {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #361C26;
+    border: 1px solid #361C26;
+    padding: 1.5rem 2rem;
+    
+}
+
+.type:hover, .type:active  {
+    background-color: #361C26;
+    color: #fff;
+}
+
+
+.all-recipes {
+    padding: 0 5rem;
+}
+

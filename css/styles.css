@@ -72,7 +72,7 @@ img{
 
 
 header {
-    background-color: #FFF3E3;
+    background-color: #361C26;
     margin: 0 auto;
     padding: 0 5%;
     height: 12%;
@@ -90,9 +90,6 @@ h2 a{
     font-weight: 800;
 }
 
-header a {
-    color: #03071E;
-}
 
 .navbar {
     gap: 5.5rem;
@@ -119,16 +116,30 @@ header a {
     padding: 10px 20px;
 }
 
-.btn-reg,.btn-reg:link, .btn-reg:visited  {
-    background-color: #FFF3E3;
+.btn-log,.btn-log:link, .btn-log:visited  {    
+    background-color: #fff;
+    color: #361C26;
+}
+
+.btn-log:hover, .btn-log:active  {
     color: #fff;
-    border:1.5px solid #0a0908;
+    background-color: #F77F00;
+}
+
+.btn-reg,.btn-reg:link, .btn-reg:visited  {
+    background-color: #F77F00;
+    color: #fff;
+    border: 1px solid #361C26;
+   
 }
 .btn-reg:hover, .btn-reg:active  {
     background-color: #fff;
     color: #F77F00;
-    border: 1.5px solid #F77F00;
+    border: 1px solid #F77F00;
+    
 }
+
+
 
 
 /* hero section */
@@ -138,7 +149,7 @@ header a {
     /* padding-top: 4.5rem; */
 }
 .hero {
-    background-color: #FFF3E3;
+    background-color: #F4ECEE;
     padding: 6% 3.5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -160,24 +171,14 @@ header a {
 .btn-discover,.btn-discover:link, .btn-discover:visited  {
     background-color: #F77F00;
     color: #fff;
-    border: 1.5px solid #0a0908;
+    border: 1px solid #0a0908;
 }
 .btn-discover:hover, .btn-discover:active  {
     background-color: #fff;
     color: #F77F00;
-    border: 1.5px solid #F77F00;
+    border: 1px solid #F77F00;
 }
 
-.btn-log,.btn-log:link, .btn-log:visited  {
-    background-color: #fff;
-    color: #283618;
-    border: 1.5px solid #0a0908;
-    
-}
-.btn-log:hover, .btn-log:active  {
-    background-color: #0a0908;
-    color: #fff;
-}
 
 /* Latest Recipes section */
 .latest-recipes{
@@ -240,7 +241,7 @@ header a {
 footer {
     margin: 5% auto 0 auto;
     padding: 5% 5% 0;
-    background-color: #03071E;
+    background-color: #361C26;
     flex-direction: column;
     color: #fff;
 }
@@ -305,7 +306,7 @@ ion-icon:hover, ion-icon:active{
 
 .subscribe .email-input {
     padding: 4.5% 10% 4% 0;
-    background-color: #03071E;
+    background-color: #361C26;
     border: 1.5px solid black;
 }
 
@@ -321,7 +322,7 @@ a.email {
 
 .copyright {
     width: 100%;
-    background-color: #03071E;
+    background-color: #361C26;
     text-align: center;
     padding: 1%;
 } 
