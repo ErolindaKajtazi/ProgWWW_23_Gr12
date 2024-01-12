@@ -32,3 +32,10 @@ header {
     padding: 0 5rem;
 }
 
+
+.dessert-sect, .dinner-sect, .lunch-sect, 
+.salad-section, .drinks-section {
+    padding: 1% 5%;
+    text-align: center;
+    margin-top: 4rem !important;
+}

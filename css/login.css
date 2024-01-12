@@ -56,8 +56,13 @@ form p {
     gap: 2rem;
 }
 
-ion-icon {
-    font-size: 38;
+ion-icon{
+    font-size: 2.8rem;
+    color: #361C26;
+}
+
+ion-icon:hover, ion-icon:active{
+    color: #F77F00;
 }
 
 

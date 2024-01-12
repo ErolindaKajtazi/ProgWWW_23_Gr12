@@ -71,11 +71,18 @@ footer {
 }
 
 .testimonials .testimonial {
+    padding: 3rem;
     text-align: center;
     gap: 16px;
+    background-color: #DDC3C8;
+    border-radius: 10%;
 }
 
 .testimonials .row {
     gap: 4rem;
+}
+
+.testimonial .name {
+    padding-bottom: 20px;
 }
 
